@@ -1,9 +1,9 @@
 ---
 downloads: ~/.ansible-downloads/
 
-configure_sudoers: yes
+configure_sudoers: no
 configure_terminal: no
-configure_osx: yes
+configure_osx: no
 
 dotfiles_repo: https://github.com/henning/dotfiles.git
 dotfiles_repo_accept_hostkey: yes
@@ -13,17 +13,26 @@ dotfiles_files:
   - .gitconfig
   - .gitignore
   - .inputrc
-  - .osx
+  #- .osx
   - .vimrc
 
 homebrew_installed_packages:
   - bash-completion
   - git
   - gpg
-  - mcrypt
   - ssh-copy-id
   - openssl
   - wget
+  - gradle
+  - npm 
+  - pyenv-virtualenvwrapper
+  - bash
+  - fish
+  - macvim
+  - aws-elasticbeanstalk
+  - awscli
+  - python3
+  - mysql
 
 homebrew_taps:
   - homebrew/core
@@ -38,10 +47,18 @@ homebrew_cask_apps:
   - dropbox
   - firefox
   - google-chrome
-  - macvim
   - sublime-text
   - vagrant
   - virtualbox
+  - keepassx
+  - kdiff3
+  - atom
+  - pycharm
+  - webstorm
+  - nextcloud
+  - thunderbird
+  - gimp
+  - java
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
