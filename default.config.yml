@@ -47,10 +47,7 @@ homebrew_installed_packages:
 homebrew_taps:
   - homebrew/core
   - caskroom/cask
-  - homebrew/binary
-  - homebrew/dupes
   - homebrew/php
-  - homebrew/versions
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
@@ -76,3 +73,5 @@ homebrew_cask_apps:
 mas_installed_apps: []
 mas_email: ""
 mas_password: ""
+
+osx_script: "~/.osx --no-restart"
