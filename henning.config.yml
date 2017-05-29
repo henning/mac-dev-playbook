@@ -3,18 +3,18 @@ downloads: ~/.ansible-downloads/
 
 configure_sudoers: no
 configure_terminal: no
-configure_osx: no
+configure_osx: yes 
 
 dotfiles_repo: https://github.com/henning/dotfiles.git
 dotfiles_repo_accept_hostkey: yes
 dotfiles_repo_local_destination: ~/Documents/dotfiles
 dotfiles_files:
-  - .bash_profile
-  - .gitconfig
-  - .gitignore
-  - .inputrc
+  #- .bash_profile
+  #- .gitconfig
+  #- .gitignore
+  #- .inputrc
   #- .osx
-  - .vimrc
+  #- .vimrc
 
 homebrew_installed_packages:
   - bash-completion
@@ -25,9 +25,10 @@ homebrew_installed_packages:
   - wget
   - gradle
   - npm 
+  - nvm
   - pyenv-virtualenvwrapper
   - bash
-  - fish
+  - michaeldfallen/formula/git-radar
   - macvim
   - aws-elasticbeanstalk
   - awscli
@@ -46,13 +47,14 @@ homebrew_cask_apps:
   - docker
   - dropbox
   - firefox
+  - github-desktop
   - google-chrome
   - sublime-text
   - vagrant
   - virtualbox
   - keepassx
   - kdiff3
-  - atom
+  - visual-studio-code
   - pycharm
   - webstorm
   - nextcloud
