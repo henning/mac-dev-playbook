@@ -5,35 +5,37 @@ configure_sudoers: no
 configure_terminal: no
 configure_osx: yes 
 
+dotfiles_manage: yes
 dotfiles_repo: https://github.com/henning/dotfiles.git
-dotfiles_repo_accept_hostkey: yes
+dotfiles_repo_accept_hostkey: no
 dotfiles_repo_local_destination: ~/Documents/dotfiles
 dotfiles_files:
-  #- .bash_profile
-  #- .gitconfig
-  #- .gitignore
-  #- .inputrc
-  #- .osx
-  #- .vimrc
+  - .bash_profile
+  - .gitconfig
+  - .gitignore
+  - .inputrc
+  - .osx
+  - .vimrc
 
 homebrew_installed_packages:
+  - aws-elasticbeanstalk
+  - awscli
+  - bash
   - bash-completion
   - git
   - gpg
-  - ssh-copy-id
-  - openssl
-  - wget
   - gradle
+  - macvim
+  - michaeldfallen/formula/git-radar
+  - mysql
   - npm 
   - nvm
+  - openssl
   - pyenv-virtualenvwrapper
-  - bash
-  - michaeldfallen/formula/git-radar
-  - macvim
-  - aws-elasticbeanstalk
-  - awscli
   - python3
-  - mysql
+  - ruby
+  - ssh-copy-id
+  - wget
 
 homebrew_taps:
   - homebrew/core
@@ -47,14 +49,12 @@ homebrew_cask_apps:
   - docker
   - dropbox
   - firefox
-  - github-desktop
   - google-chrome
   - sublime-text
   - vagrant
   - virtualbox
   - keepassx
   - kdiff3
-  - visual-studio-code
   - pycharm
   - webstorm
   - nextcloud
