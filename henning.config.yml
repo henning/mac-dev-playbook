@@ -25,8 +25,11 @@ homebrew_installed_packages:
   - git
   - gpg
   - gradle
+  - jq
+  - kops
+  - kubectl
   - macvim
-  - michaeldfallen/formula/git-radar
+  - maven
   - mysql
   - npm 
   - nvm
@@ -46,21 +49,30 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
+  - android-sdk
+  - android-studio
   - docker
   - dropbox
+  - enpass  
   - firefox
   - google-chrome
-  - sublime-text
-  - vagrant
-  - virtualbox
-  - keepassx
-  - kdiff3
-  - pycharm
-  - webstorm
-  - nextcloud
-  - thunderbird
   - gimp
   - java
+  - kdiff3
+  - keepassx
+  - mongo-management-studio
+  - mongodb-compass
+  - nextcloud
+  - pycharm
+  - quodlibet
+  - robo-3t
+  - studio-3t
+  - tomahawk
+  - sublime-text
+  - thunderbird
+  - vagrant
+  - virtualbox
+  - webstorm
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
