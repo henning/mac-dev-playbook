@@ -39,6 +39,7 @@ homebrew_installed_packages:
   - ruby
   - ssh-copy-id
   - wget
+  - xhyve
 
 homebrew_taps:
   - homebrew/core
@@ -60,6 +61,7 @@ homebrew_cask_apps:
   - java
   - kdiff3
   - keepassx
+  - minikube
   - mongo-management-studio
   - mongodb-compass
   - nextcloud
