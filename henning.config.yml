@@ -65,6 +65,7 @@ homebrew_cask_apps:
   - mongo-management-studio
   - mongodb-compass
   - nextcloud
+  - postman
   - pycharm
   - quodlibet
   - robo-3t
