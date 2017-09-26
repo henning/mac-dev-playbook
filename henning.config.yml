@@ -23,6 +23,7 @@ homebrew_installed_packages:
   - awscli
   - bash
   - bash-completion
+  - cfssl
   - git
   - gpg
   - gradle
