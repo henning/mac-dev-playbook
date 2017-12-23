@@ -27,6 +27,7 @@ homebrew_installed_packages:
   - git
   - gpg
   - gradle
+  - hugo
   - kubernetes-helm
   - jq
   - kops
@@ -62,6 +63,7 @@ homebrew_cask_apps:
   - firefox
   - google-chrome
   - gimp
+  - intellij-idea-ce
   - java
   - kdiff3
   - keepassx
@@ -76,6 +78,7 @@ homebrew_cask_apps:
   - robo-3t
   - studio-3t
   - tomahawk
+  - teamviewer
   - sublime-text
   - thunderbird
   - vagrant
