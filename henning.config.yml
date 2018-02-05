@@ -60,6 +60,7 @@ homebrew_cask_apps:
   - dropbox
   - enpass  
   - firefox
+  - freemind
   - google-chrome
   - gimp
   - intellij-idea-ce
